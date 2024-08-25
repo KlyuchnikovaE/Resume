@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+}
+.wrapper{
+    min-width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.container{
+    
+    max-width: 100%;
+    margin: 0 100px;
+    padding: 0 20px;
+    
+}
+.img{
+  float: right;
+    width: 250px;
+    height: 250px;
+}
+.h1{
+    font-size: 40px;
+}
+.h3{
+    font-size: 25px;
+    
+}
+.p{
+    font-size: 18px;
+    margin: 0;   
+}
+.education{
+    margin-top: 5px;
+}
+.container_education{
+    display: flex;
+    width: 35%;
+    background: rgb(182, 216, 250);
+    align-items: center;
+    justify-content: space-around;
+}
+.container_education_title{
+    display: grid;
+    width: 65%;
+justify-items: center;
+background:rgb(218, 236, 254);
+}
+.title{
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 10px;
+
+}
+.prof{
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.box{
+    display: flex;
+    max-width: 100%;
+}
